@@ -1,7 +1,7 @@
 def pipelineContext = [:]
 node {
 
-   def registryProjet='registry.gitlab.com/Innesjb/presentations-jenkins'
+   def registryProjet='registry.gitlab.com/innesjb/presentations-jenkins'
 	 def IMAGE="${registryProjet}:version-${env.BUILD_ID}"
 
 	 echo "IMAGE = $IMAGE"
